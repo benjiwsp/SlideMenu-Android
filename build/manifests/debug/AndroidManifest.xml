@@ -1,7 +1,9 @@
 <!-- From: file:/C:/Users/Benjiw/AndroidStudioProjects/SlidingMenu/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="info.androidhive.slidingmenu">
 
     <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="17"/>
-
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.write_external_storage"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
         <activity android:label="@string/app_name" android:name="info.androidhive.slidingmenu.MainActivity">
             <intent-filter>

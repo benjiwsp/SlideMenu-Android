@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class WhatsHotFragment extends Fragment {
-	
+
 	public WhatsHotFragment(){}
 	
 	
@@ -16,7 +16,7 @@ public class WhatsHotFragment extends Fragment {
             Bundle savedInstanceState) {
  
         View rootView = inflater.inflate(R.layout.fragment_whats_hot, container, false);
-         
+
         return rootView;
     }
 }

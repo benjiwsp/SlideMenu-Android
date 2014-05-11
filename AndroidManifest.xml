@@ -5,9 +5,11 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="14"
         android:targetSdkVersion="17" />
-
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.write_external_storage"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
